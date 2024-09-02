@@ -1,0 +1,95 @@
+Initial maxHeapDebt contents: [{"username":"harsh","amount":1000}]
+Initial maxHeapCredit contents: [{"username":"lav","amount":1000}]
+credit {"username":"lav","amount":1000}
+debit: {"username":"harsh","amount":1000}
+added: {"from":"harsh","to":"lav","amount":1000}
+Array: []
+Initial maxHeapDebt contents: [{"username":"sak","amount":1000}]
+Initial maxHeapCredit contents: [{"username":"lav","amount":1000}]
+credit {"username":"lav","amount":1000}
+debit: {"username":"sak","amount":1000}
+added: {"from":"sak","to":"lav","amount":1000}
+Array: []
+Initial maxHeapDebt contents: []
+Initial maxHeapCredit contents: []
+Array: []
+Initial maxHeapDebt contents: []
+Initial maxHeapCredit contents: []
+Initial maxHeapDebt contents: []
+Initial maxHeapCredit contents: []
+Array: []
+Initial maxHeapDebt contents: [{"username":"a","amount":10000}]
+Initial maxHeapCredit contents: [{"username":"k","amount":10000}]
+credit {"username":"k","amount":10000}
+debit: {"username":"a","amount":10000}
+added: {"from":"a","to":"k","amount":10000}
+Array: []
+Initial maxHeapDebt contents: [{"username":"a","amount":10000},{"username":"j","amount":10000}]
+Initial maxHeapCredit contents: [{"username":"k","amount":10000},{"username":"l","amount":10000}]
+credit {"username":"k","amount":10000}
+debit: {"username":"a","amount":10000}
+added: {"from":"a","to":"k","amount":10000}
+credit {"username":"l","amount":10000}
+debit: {"username":"j","amount":10000}
+added: {"from":"j","to":"l","amount":10000}
+Array: []
+Initial maxHeapDebt contents: [{"username":"b","amount":1200}]
+Initial maxHeapCredit contents: [{"username":"a","amount":1200}]
+credit {"username":"a","amount":1200}
+debit: {"username":"b","amount":1200}
+added: {"from":"b","to":"a","amount":1200}
+Array: []
+Initial maxHeapDebt contents: [{"username":"c","amount":2400}]
+Initial maxHeapCredit contents: [{"username":"a","amount":1200},{"username":"b","amount":1200}]
+credit {"username":"a","amount":1200}
+debit: {"username":"c","amount":2400}
+added: {"from":"c","to":"a","amount":1200}
+credit {"username":"b","amount":1200}
+debit: {"username":"c","amount":1200}
+added: {"from":"c","to":"b","amount":1200}
+Array: []
+Initial maxHeapDebt contents: [{"username":"c","amount":2400},{"username":"a","amount":800}]
+Initial maxHeapCredit contents: [{"username":"b","amount":3200}]
+credit {"username":"b","amount":3200}
+debit: {"username":"c","amount":2400}
+added: {"from":"c","to":"b","amount":2400}
+credit {"username":"b","amount":800}
+debit: {"username":"a","amount":800}
+added: {"from":"a","to":"b","amount":800}
+Array: []
+Initial maxHeapDebt contents: [{"username":"c","amount":5400}]
+Initial maxHeapCredit contents: [{"username":"b","amount":3200},{"username":"a","amount":2200}]
+credit {"username":"b","amount":3200}
+debit: {"username":"c","amount":5400}
+added: {"from":"c","to":"b","amount":3200}
+credit {"username":"a","amount":2200}
+debit: {"username":"c","amount":2200}
+added: {"from":"c","to":"a","amount":2200}
+Array: []
+Initial maxHeapDebt contents: [{"username":"c","amount":6400}]
+Initial maxHeapCredit contents: [{"username":"b","amount":4200},{"username":"a","amount":2200}]
+credit {"username":"b","amount":4200}
+debit: {"username":"c","amount":6400}
+added: {"from":"c","to":"b","amount":4200}
+credit {"username":"a","amount":2200}
+debit: {"username":"c","amount":2200}
+added: {"from":"c","to":"a","amount":2200}
+Array: []
+Initial maxHeapDebt contents: [{"username":"c","amount":8400}]
+Initial maxHeapCredit contents: [{"username":"a","amount":4200},{"username":"b","amount":4200}]
+credit {"username":"a","amount":4200}
+debit: {"username":"c","amount":8400}
+added: {"from":"c","to":"a","amount":4200}
+credit {"username":"b","amount":4200}
+debit: {"username":"c","amount":4200}
+added: {"from":"c","to":"b","amount":4200}
+Array: []
+Initial maxHeapDebt contents: [{"username":"c","amount":9400}]
+Initial maxHeapCredit contents: [{"username":"b","amount":5200},{"username":"a","amount":4200}]
+credit {"username":"b","amount":5200}
+debit: {"username":"c","amount":9400}
+added: {"from":"c","to":"b","amount":5200}
+credit {"username":"a","amount":4200}
+debit: {"username":"c","amount":4200}
+added: {"from":"c","to":"a","amount":4200}
+Array: []

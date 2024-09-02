@@ -1,0 +1,112 @@
+.add-expense-plus {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color:  yellow !important; 
+  color: black !important; 
+  justify-self: center;
+  border: none; 
+  cursor: pointer; 
+  font-weight: bold; 
+}
+
+.input-container header {
+  min-width: 100px;
+}
+
+.borrower-cross {
+  width: 20px;
+  height: 20px;
+}
+
+.borrower-container .add-expense-plus {
+  align-self: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.borrower-container {
+  display: flex;
+  gap: 5px;
+}
+
+.overflow-container {
+  max-height: 0;
+  transition: all 0.8s ease;
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+  align-items: center;
+  font-family: "Poppins";
+  padding: 0 20px 0 20px;
+}
+
+.overflow-container-expand {
+  padding: 15px 20px 0 20px;
+}
+
+.add-expense-container {
+  display: grid;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  margin: 0 auto 0 auto;
+  align-items: center;
+  grid-template-columns: [dot] auto;
+  height: 50px;
+}
+
+input {
+  height: 33px;
+  font-size: 16px;
+  padding: 0px 5px 0px 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  font-family: "Poppins";
+  flex-grow: 1;
+}
+
+.settle-container input {
+  padding: 1px 1px 1px 5px;
+  border-radius: 7px;
+  border-left: none;
+  font-size: 20px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  outline: none;
+}
+
+.settle-container input {
+  width: 80px;
+  flex-grow: 0;
+}
+
+.user-dropdown {
+  border-radius: 5px;
+  font-weight: lighter;
+  margin-bottom: 5px;
+  flex-grow: inherit;
+}
+
+.settle-container select {
+  border-radius: 7px;
+  height: auto;
+  padding: 1px 10px;
+  font-size: 20px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.borrower-container .borrower-input {
+  width: 110px;
+}
+
+.borrower-container .borrower-split {
+  width: 30%;
+}
+
+#cross {
+  transition: all 0.5s ease;
+  transform-origin: center;
+}
